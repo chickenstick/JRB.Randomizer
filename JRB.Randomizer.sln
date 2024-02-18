@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JRB.Randomizer", "JRB.Randomizer\JRB.Randomizer.csproj", "{BD5CC4CD-760D-4952-BA05-3B844AF5C63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JRB.Randomizer.TestConsole", "JRB.Randomizer.TestConsole\JRB.Randomizer.TestConsole.csproj", "{373C72F4-7DFE-4D8E-B9FF-C39DFF63F435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD5CC4CD-760D-4952-BA05-3B844AF5C63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5CC4CD-760D-4952-BA05-3B844AF5C63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5CC4CD-760D-4952-BA05-3B844AF5C63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5CC4CD-760D-4952-BA05-3B844AF5C63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373C72F4-7DFE-4D8E-B9FF-C39DFF63F435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373C72F4-7DFE-4D8E-B9FF-C39DFF63F435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373C72F4-7DFE-4D8E-B9FF-C39DFF63F435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373C72F4-7DFE-4D8E-B9FF-C39DFF63F435}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBA972F1-8767-4756-A923-F3D5CB68679F}
+	EndGlobalSection
+EndGlobal
