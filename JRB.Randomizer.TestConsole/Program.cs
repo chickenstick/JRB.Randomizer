@@ -16,12 +16,14 @@ namespace JRB.Randomizer.TestConsole
 
         static void TestRandomizationSpread()
         {
-            Dictionary<char, int> results = new Dictionary<char, int>();
-            results.Add('A', 0);
-            results.Add('B', 0);
-            results.Add('C', 0);
-            results.Add('D', 0);
-            results.Add('X', 0);
+            Dictionary<char, int> results = new Dictionary<char, int>
+            {
+                { 'A', 0 },
+                { 'B', 0 },
+                { 'C', 0 },
+                { 'D', 0 },
+                { 'X', 0 }
+            };
 
             Stopwatch sw = Stopwatch.StartNew();
             for (int i = 0; i < 1000000; i++)
