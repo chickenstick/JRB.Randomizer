@@ -40,5 +40,12 @@ namespace JRB.Randomizer
             return methods[index]();
         }
 
+        public static T GetRandom<T>(this Random random) where T : struct, Enum
+        {
+            var v = Enum.GetValues(typeof(T));
+            object? obj = v.GetValue(random.Next(v.Length));
+            return (obj == null) ? default : (T)obj;
+        }
+
     }
 }
